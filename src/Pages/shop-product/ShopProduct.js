@@ -32,7 +32,7 @@ function ShopProduct() {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:3001/product/${shopId}`)
+      .get(`https://onifood.glitch.me/product/${shopId}`)
       .then((responce) => {
         SetProduct(responce.data.data);
         Setshop(responce.data.shopDetail);

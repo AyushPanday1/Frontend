@@ -35,7 +35,7 @@ function Cart() {
       cartId: cartId,
     };
     axios
-      .post(`https://lakshya-lk8w.onrender.com//users/${userId}/orders`, object)
+      .post(`https://onifood.glitch.me//users/${userId}/orders`, object)
       .then(() => {
         alert("Order placed 😍");
         window.location.replace("home");

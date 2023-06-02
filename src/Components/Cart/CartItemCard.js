@@ -11,7 +11,7 @@ function CartItemCard({ item, cartId }) {
       removeProduct: "-1",
     };
     axios
-      .put(`https://lakshya-lk8w.onrender.com//users/${userid}/cart`, object)
+      .put(`https://onifood.glitch.me//users/${userid}/cart`, object)
       .then((res) => {
         window.location.reload(false);
       })
@@ -27,7 +27,7 @@ function CartItemCard({ item, cartId }) {
       removeProduct: 1,
     };
     axios
-      .put(`https://lakshya-lk8w.onrender.com//users/${userid}/cart`, object)
+      .put(`https://onifood.glitch.me//users/${userid}/cart`, object)
       .then((res) => {
         window.location.reload(false);
       })
