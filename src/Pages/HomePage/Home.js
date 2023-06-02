@@ -17,7 +17,7 @@ function Home() {
   const [resto, SetResto] = useState([]);
 
   useEffect(() => {
-    axios.get("https://lakshya-lk8w.onrender.com//shop")
+    axios.get("https://onifood.glitch.me//shop")
       .then((responce) => {
         SetResto(responce.data.data);
       })

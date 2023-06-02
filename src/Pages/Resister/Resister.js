@@ -67,7 +67,7 @@ function Resister() {
                 pincode
             }
         }
-        axios.post("https://lakshya-lk8w.onrender.com//user", options, config).then((res) => {
+        axios.post("https://onifood.glitch.me///user", options, config).then((res) => {
             alert("Account has created succesfully")
             window.location.replace("/")
         }).catch((err) => alert(err.response.data.message))

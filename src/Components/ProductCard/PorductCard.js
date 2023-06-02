@@ -13,7 +13,7 @@ function ProductCard({ product }) {
     };
 
     axios
-      .post(`https://lakshya-lk8w.onrender.com//users/${userId}/cart`, object)
+      .post(`https://onifood.glitch.me//users/${userId}/cart`, object)
       .then((res) => {
         alert("Item added successfully");
       })

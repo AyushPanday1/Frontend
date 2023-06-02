@@ -16,7 +16,7 @@ function Items() {
     const [product, setProdduct] = useState([])
 
     useEffect(() => {
-        axios.get(`https://lakshya-lk8w.onrender.com//product?title=${query}`)
+        axios.get(`https://onifood.glitch.me//product?title=${query}`)
             .then((responce) => {
                 setProdduct(responce.data.data);
             })

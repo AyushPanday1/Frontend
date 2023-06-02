@@ -15,7 +15,7 @@ function Addcomment({shopId}) {
 
 
    function addcom(shopId){
-    axios.post(`https://lakshya-lk8w.onrender.com//comment/${shopId}`,options)
+    axios.post(`https://onifood.glitch.me//comment/${shopId}`,options)
     .then((res)=> {
         alert("Thanks for your review")
         window.location.reload(false)}

@@ -48,7 +48,7 @@ function AddShop() {
             }
         }
 
-        axios.post("https://lakshya-lk8w.onrender.com//shop", options, config)
+        axios.post("https://onifood.glitch.me//shop", options, config)
             .then((res) => {
                 localStorage.setItem("shopId", res.data.data._id);
                 alert("Shop created Succesfully !")

@@ -9,7 +9,7 @@ function Comment({ comment }) {
     console.log(a, b)
 
     if (a !== b) return alert("can't delete other person comment")
-    axios.put(`https://lakshya-lk8w.onrender.com//comment/${commentid}`)
+    axios.put(`https://onifood.glitch.me//comment/${commentid}`)
       .then((res) => {
         alert("your comment deleted successfully")
         window.location.reload(false)

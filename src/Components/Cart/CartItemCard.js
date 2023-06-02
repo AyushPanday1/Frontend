@@ -44,7 +44,7 @@ function CartItemCard({ item, cartId }) {
     };
     if (window.confirm(`want to remove ${name} ?`)) {
       axios
-        .put(`https://lakshya-lk8w.onrender.com//users/${userid}/cart`, object)
+        .put(`https://onifood.glitch.me//users/${userid}/cart`, object)
         .then((res) => {
           window.location.reload(false);
         })

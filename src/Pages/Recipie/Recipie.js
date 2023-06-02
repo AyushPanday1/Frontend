@@ -26,7 +26,7 @@ function Recipie() {
 
 
   useEffect(() => {
-    axios.get("https://lakshya-lk8w.onrender.com//recipi")
+    axios.get("https://onifood.glitch.me//recipi")
       .then((responce) => {
 
         setvideodata(responce.data.data);

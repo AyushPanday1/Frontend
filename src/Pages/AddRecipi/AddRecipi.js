@@ -35,7 +35,7 @@ function AddRecipi() {
 
         console.log(options)
 
-        axios.post("https://lakshya-lk8w.onrender.com//recipi", options, config)
+        axios.post("https://onifood.glitch.me//recipi", options, config)
             .then(() => {
                 alert("Recipie added successfully")
                 window.location.replace("/recipie")

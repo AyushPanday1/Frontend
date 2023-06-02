@@ -17,7 +17,7 @@ function Login() {
 			password: password
 		}
 
-		axios.post("https://lakshya-lk8w.onrender.com//loginUser", obj).then((res) => {
+		axios.post("https://onifood.glitch.me//loginUser", obj).then((res) => {
 			localStorage.setItem("token", res.data.data.token)
 			localStorage.setItem("user", JSON.stringify(res.data.data))
 			localStorage.setItem("shopId", res.data.data.shopId)

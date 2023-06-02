@@ -16,7 +16,7 @@ function Cart() {
 
   useEffect(() => {
     axios
-      .get(`https://lakshya-lk8w.onrender.com//users/${userData.userId._id}/cart`)
+      .get(`https://onifood.glitch.me//users/${userData.userId._id}/cart`)
       .then((responce) => {
         if(responce.data.Items.length<1){
           alert("Your Cart is empty 🥹!")

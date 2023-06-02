@@ -44,7 +44,7 @@ function ShopProduct() {
 
   useEffect(() => {
     axios
-      .get(`https://lakshya-lk8w.onrender.com//comment/${shopId}`)
+      .get(`https://onifood.glitch.me//comment/${shopId}`)
       .then((responce) => {
         SetComment(responce.data.data);
         console.log(responce.data.data);

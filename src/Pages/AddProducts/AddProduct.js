@@ -32,7 +32,7 @@ function AddProduct() {
             }
         }
 
-        axios.post("https://lakshya-lk8w.onrender.com//product", options, config)
+        axios.post("https://onifood.glitch.me//product", options, config)
             .then(() => {
                 alert("Product has added 😎")
                 navigation(`/shopproduct/${options.shopId}`, { replace: true })     //window.location.replace(`/${a}`)                     //can redirect to add products
