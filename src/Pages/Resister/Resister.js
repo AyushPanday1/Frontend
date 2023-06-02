@@ -20,7 +20,7 @@ function Resister() {
     const [checkImg, setCheckImg] = useState(false)
 
     function validateEmail(email) {
-        let regex = /^\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{2,3})+$/
+        let regex = /^\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{2,3})+$/;
         return (typeof (email) != "string" || regex.test(email)) ? true : false
     }
 
@@ -30,7 +30,7 @@ function Resister() {
     }
 
     function isValidMobile(phone) {
-        let regex = /^[6-9][0-9]{9}$/
+        let regex = /^[6-9][0-9]{9}$/;
         return regex.test(phone)
     }
 
